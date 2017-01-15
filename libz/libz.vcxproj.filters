@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{239a94bb-9272-4398-b502-baab0c3044a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{8c8636c8-33f0-4642-9f87-4c257d926eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\exces">
+      <UniqueIdentifier>{32809be8-61fc-484b-a820-7f50bee52e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\types">
+      <UniqueIdentifier>{a3bf3087-2d73-4633-9ab8-91360fad225f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\types">
+      <UniqueIdentifier>{1b415cea-8c9e-4964-baa3-7bb29e940f2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="variable.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="libz.hpp" />
+    <ClInclude Include="exces\invalid_type.hpp">
+      <Filter>헤더 파일\exces</Filter>
+    </ClInclude>
+    <ClInclude Include="types\int32.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\types.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="exces\invalid_call.hpp">
+      <Filter>헤더 파일\exces</Filter>
+    </ClInclude>
+    <ClInclude Include="exces\exces.hpp">
+      <Filter>헤더 파일\exces</Filter>
+    </ClInclude>
+    <ClInclude Include="types\uint32.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\int64.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\uint64.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\int16.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\uint16.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\int8.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\uint8.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\bool.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\char.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\pointer.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="exces\not_impl.hpp">
+      <Filter>헤더 파일\exces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="variable.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="types\int32.cpp">
+      <Filter>소스 파일\types</Filter>
+    </ClCompile>
+    <ClCompile Include="types\uint32.cpp">
+      <Filter>소스 파일\types</Filter>
+    </ClCompile>
+    <ClCompile Include="types\int64.cpp">
+      <Filter>소스 파일\types</Filter>
+    </ClCompile>
+    <ClCompile Include="types\uint64.cpp">
+      <Filter>소스 파일\types</Filter>
+    </ClCompile>
+    <ClCompile Include="types\int16.cpp">
+      <Filter>소스 파일\types</Filter>
+    </ClCompile>
+    <ClCompile Include="types\uint16.cpp">
+      <Filter>소스 파일\types</Filter>
+    </ClCompile>
+    <ClCompile Include="types\int8.cpp">
+      <Filter>소스 파일\types</Filter>
+    </ClCompile>
+    <ClCompile Include="types\uint8.cpp">
+      <Filter>소스 파일\types</Filter>
+    </ClCompile>
+    <ClCompile Include="types\bool.cpp">
+      <Filter>소스 파일\types</Filter>
+    </ClCompile>
+    <ClCompile Include="types\char.cpp">
+      <Filter>소스 파일\types</Filter>
+    </ClCompile>
+    <ClCompile Include="types\pointer.cpp">
+      <Filter>소스 파일\types</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

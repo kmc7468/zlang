@@ -1,0 +1,16 @@
+#include <string>
+[namespace std (
+<([extern]) [func print void ([var a string])]>
+<([extern]) [func print void ([var a int64])]>
+<([extern]) [func print void ([var a uint64])]>
+<([extern]) [func print void ([var a real64])]>
+<([extern]) [func print void ([var a bool])]>
+<([extern]) [func print void ([var a char])]>
+<([extern]) [func println void void]>
+<([extern]) [func println void ([var a string])]>
+<([extern]) [func println void ([var a int64])]>
+<([extern]) [func println void ([var a uint64])]>
+<([extern]) [func println void ([var a real64])]>
+<([extern]) [func println void ([var a bool])]>
+<([extern]) [func println void ([var a char])]>
+)]

@@ -1,0 +1,6 @@
+[func main void int (
+[var a int32]=5;
+[var b int32]=25;
+[var c int32]=a+c;
+ret c;
+)]
