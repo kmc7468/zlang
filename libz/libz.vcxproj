@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="code.hpp" />
     <ClInclude Include="exces\exces.hpp" />
     <ClInclude Include="exces\invalid_call.hpp" />
     <ClInclude Include="exces\invalid_type.hpp" />
