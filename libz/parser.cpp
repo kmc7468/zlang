@@ -12,7 +12,12 @@ namespace libz
 			{
 				vector<string> split;
 				libz::split(substr, ' ', split);
-				// TODO
+				out->m_tokens.push_back("var");
+				out->m_tokens.push_back(split[1]);
+				if (split[2].front() == '(')
+				{
+
+				}
 			}
 		}
 	}

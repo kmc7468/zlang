@@ -1,7 +1,8 @@
 ﻿<되도록이면 docx 파일을 열람해 주십시오>
 zlang은 static(kmc7468@naver.com) 이 2017년 1월 6일부터 표준을 정하기 시작한 프로그래밍 언어이다.
 1 zlang 슬로건
-zlang의 슬로건은 "프로그래머가 신뢰할 수 있게 만들어라." 이다. 영어로는 "Make the programmer trustable." 이다.
+zlang의 슬로건은 "유니버셜 코드 플랫폼" 이다. 영어로는 "Universal code platform" 이다.
+모토는 "코드에게 자유를." 이다. 영어로는 "Freedom to code."이다.
 2 zlang 목적
 zlang의 목적은 코드를 수정하지 않고 프로그래머가 할 수 있는 선택을 최대한 많게 만드는 것이다.
 3 zlang 구조
