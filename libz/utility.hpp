@@ -31,8 +31,8 @@ namespace libz
 	};
 	using ptrint = typename enable_if<sizeof(void*) == 8, uint64_t, uint32_t>::_Ty;
 
-	void split(const string& str, const char& delim, vector<string>& r);
-	vector<string> split(const string& str, const char& delim);
+	void split(const string& str, const string::value_type& delim, vector<string>& r);
+	vector<string> split(const string& str, const string::value_type& delim);
 }
 
 #define LIBZ_STATIC_CLASS(name) public:\

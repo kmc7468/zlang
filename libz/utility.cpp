@@ -2,7 +2,7 @@
 
 namespace libz
 {
-	void split(const string& str, const char& delim, vector<string>& r)
+	void split(const string& str, const string::value_type& delim, vector<string>& r)
 	{
 		std::basic_stringstream<string::value_type> ss;
 		ss.str(str);
@@ -12,7 +12,7 @@ namespace libz
 			r.push_back(i);
 		}
 	}
-	vector<string> split(const string& str, const char& delim)
+	vector<string> split(const string& str, const string::value_type& delim)
 	{
 		vector<string> r;
 		split(str, delim, r);
