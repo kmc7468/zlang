@@ -8,7 +8,23 @@
 
 namespace libz
 {
-	using token = std::variant<string, vector<string>>;
+	enum class option : int
+	{
+		none = 0,
+		extern_,
+		static_,
+		virtual_ = 4,
+		abstract = 8,
+		const_ = 16,
+		final_ = 32,
+	};
+	enum class token_info : int
+	{
+		none = 0,
+		template_,
+		has_option,
+	};
+	using token = std::pair<std::variant<string, option>, token_info>;
 	class code final
 	{
 		friend class parser;

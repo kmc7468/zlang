@@ -33,6 +33,12 @@ namespace libz
 
 	void split(const string& str, const string::value_type& delim, vector<string>& r);
 	vector<string> split(const string& str, const string::value_type& delim);
+
+	template<typename _Enum, typename _Int = int>
+	inline bool has_enum(const _Enum& item, const _Enum& has)
+	{
+		return ((_Int)item & (_Int)has) != 0;
+	}
 }
 
 #define LIBZ_STATIC_CLASS(name) public:\

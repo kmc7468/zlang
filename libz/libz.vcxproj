@@ -33,6 +33,8 @@
     <ClInclude Include="types\int64.hpp" />
     <ClInclude Include="types\int8.hpp" />
     <ClInclude Include="types\pointer.hpp" />
+    <ClInclude Include="types\real32.hpp" />
+    <ClInclude Include="types\real64.hpp" />
     <ClInclude Include="types\types.hpp" />
     <ClInclude Include="types\uint16.hpp" />
     <ClInclude Include="types\uint32.hpp" />
@@ -50,6 +52,8 @@
     <ClCompile Include="types\int64.cpp" />
     <ClCompile Include="types\int8.cpp" />
     <ClCompile Include="types\pointer.cpp" />
+    <ClCompile Include="types\real32.cpp" />
+    <ClCompile Include="types\real64.cpp" />
     <ClCompile Include="types\uint16.cpp" />
     <ClCompile Include="types\uint32.cpp" />
     <ClCompile Include="types\uint64.cpp" />

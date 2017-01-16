@@ -7,6 +7,8 @@
 #include "int32.hpp"
 #include "int64.hpp"
 #include "pointer.hpp"
+#include "real32.hpp"
+#include "real64.hpp"
 #include "uint8.hpp"
 #include "uint16.hpp"
 #include "uint32.hpp"

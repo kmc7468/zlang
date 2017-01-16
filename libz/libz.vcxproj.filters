@@ -79,6 +79,12 @@
     <ClInclude Include="parser.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="types\real32.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\real64.hpp">
+      <Filter>헤더 파일\types</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="variable.cpp">
@@ -122,6 +128,12 @@
     </ClCompile>
     <ClCompile Include="utility.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="types\real32.cpp">
+      <Filter>소스 파일\types</Filter>
+    </ClCompile>
+    <ClCompile Include="types\real64.cpp">
+      <Filter>소스 파일\types</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
