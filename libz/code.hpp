@@ -31,5 +31,33 @@ namespace libz
 			: m_tokens(std::move(code.m_tokens))
 		{}
 		~code() = default;
+
+	public:
+		inline code& operator=(const code& c)
+		{
+			return this->assign(c);
+		}
+		inline code& operator=(code&& c)
+		{
+			return this->assign(std::move(c));
+		}
+		bool operator==(const code& c) const = delete;
+		bool operator!=(const code& c) const = delete;
+
+	public:
+		inline code& assign(const code& c)
+		{
+			this->m_tokens = c.m_tokens;
+			return *this;
+		}
+		inline code& assign(code&& c)
+		{
+			this->m_tokens = std::move(c.m_tokens);
+			return *this;
+		}
+		inline const vector<token>& tokens() const
+		{
+			return this->m_tokens;
+		}
 	};
 }
