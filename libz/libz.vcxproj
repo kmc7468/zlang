@@ -25,6 +25,7 @@
     <ClInclude Include="exces\invalid_type.hpp" />
     <ClInclude Include="exces\not_impl.hpp" />
     <ClInclude Include="libz.hpp" />
+    <ClInclude Include="parser.hpp" />
     <ClInclude Include="types\bool.hpp" />
     <ClInclude Include="types\char.hpp" />
     <ClInclude Include="types\int16.hpp" />
@@ -41,6 +42,7 @@
     <ClInclude Include="variable.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="parser.cpp" />
     <ClCompile Include="types\bool.cpp" />
     <ClCompile Include="types\char.cpp" />
     <ClCompile Include="types\int16.cpp" />
@@ -52,6 +54,7 @@
     <ClCompile Include="types\uint32.cpp" />
     <ClCompile Include="types\uint64.cpp" />
     <ClCompile Include="types\uint8.cpp" />
+    <ClCompile Include="utility.cpp" />
     <ClCompile Include="variable.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

@@ -76,6 +76,9 @@
     <ClInclude Include="code.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="parser.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="variable.cpp">
@@ -113,6 +116,12 @@
     </ClCompile>
     <ClCompile Include="types\pointer.cpp">
       <Filter>소스 파일\types</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

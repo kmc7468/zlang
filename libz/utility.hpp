@@ -2,6 +2,7 @@
 
 #include <map>
 #include <memory>
+#include <sstream>
 #include <string>
 #include <utility>
 #include <vector>
@@ -29,4 +30,18 @@ namespace libz
 		using _Ty = _Disable;
 	};
 	using ptrint = typename enable_if<sizeof(void*) == 8, uint64_t, uint32_t>::_Ty;
+
+	void split(const string& str, const char& delim, vector<string>& r);
+	vector<string> split(const string& str, const char& delim);
 }
+
+#define LIBZ_STATIC_CLASS(name) public:\
+name() = delete;\
+name(const name& org) = delete;\
+name(name&& org) = delete;\
+~name() = delete;\
+public:\
+name& operator=(const name& org) = delete;\
+name& operator=(name&& org) = delete;\
+bool operator==(const name& org) const = delete;\
+bool operator!=(const name& org) const = delete;
