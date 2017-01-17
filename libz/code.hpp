@@ -8,7 +8,7 @@
 
 namespace libz
 {
-	enum class option : int
+	enum class option LIBZ_FLAG
 	{
 		none = 0,
 		extern_,
@@ -16,9 +16,9 @@ namespace libz
 		virtual_ = 4,
 		abstract = 8,
 		const_ = 16,
-		final_ = 32,
+		final = 32,
 	};
-	enum class token_info : int
+	enum class token_info LIBZ_FLAG
 	{
 		none = 0,
 		template_,

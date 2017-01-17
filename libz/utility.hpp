@@ -50,4 +50,6 @@ public:\
 name& operator=(const name& org) = delete;\
 name& operator=(name&& org) = delete;\
 bool operator==(const name& org) const = delete;\
-bool operator!=(const name& org) const = delete;
+bool operator!=(const name& org) const = delete;\
+private:
+#define LIBZ_FLAG : int

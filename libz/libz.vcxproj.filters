@@ -85,6 +85,9 @@
     <ClInclude Include="types\real64.hpp">
       <Filter>헤더 파일\types</Filter>
     </ClInclude>
+    <ClInclude Include="function.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="variable.cpp">

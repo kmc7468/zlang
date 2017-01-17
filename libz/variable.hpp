@@ -197,5 +197,13 @@ namespace libz
 			return this->m_type;
 		}
 	};
-	using variable = std::tuple<string, ptr<instance>>;
+	enum class reference_type
+	{
+		none = 0,
+		default,
+		lvalue_reference,
+		rvalue_reference,
+		gc_reference,
+	};
+	using variable = std::tuple<string, ptr<instance>, reference_type>;
 }

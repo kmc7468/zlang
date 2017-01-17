@@ -24,6 +24,7 @@
     <ClInclude Include="exces\invalid_call.hpp" />
     <ClInclude Include="exces\invalid_type.hpp" />
     <ClInclude Include="exces\not_impl.hpp" />
+    <ClInclude Include="function.hpp" />
     <ClInclude Include="libz.hpp" />
     <ClInclude Include="parser.hpp" />
     <ClInclude Include="types\bool.hpp" />
