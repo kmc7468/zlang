@@ -18,13 +18,7 @@ namespace libz
 		const_ = 16,
 		final = 32,
 	};
-	enum class token_info LIBZ_FLAG
-	{
-		none = 0,
-		template_,
-		has_option,
-	};
-	using token = std::pair<std::variant<string, option>, token_info>;
+	using token = std::variant<string, option>;
 	class code final
 	{
 		friend class parser;
